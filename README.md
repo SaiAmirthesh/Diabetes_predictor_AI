@@ -17,22 +17,24 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
    ```bash
    git clone https://github.com/SaiAmirthesh/Diabetes_predictor_AI.git
 2.install dependencies:
+   ```bash
    pip install -r requirements.txt
-
+   ```
 ## usage
 1. Run the streamlit app:
+   ```bash
    streamlit run app.py
-
+   ```
    Then access the app at http://localhost:8501
 
 ## Project Structure 📂
-
+```bash
    Diabetes_predictor_AI/
    ├── app.py                 # Streamlit application
    ├── diabetes_model.joblib  # Trained ML model
    ├── requirements.txt       # Dependencies
    └── README.md              # This file
-
+```
 
 ## Dataset ℹ️
 
@@ -42,7 +44,14 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
 
       768 patient records
 
-   Contributing 🤝
+## Technical Stack🛠️
+   
+   Frontend: Streamlit
+   Backend: Python
+   ML Framework: scikit-learn
+   Data Processing: pandas, NumPy      
+
+## Contributing 🤝
       Pull requests welcome! For major changes, please open an issue first.
 
 ## License 📜

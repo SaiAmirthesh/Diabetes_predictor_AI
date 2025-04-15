@@ -19,47 +19,47 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
 2.install dependencies:
    pip install -r requirements.txt
 
-##usage
-Run the streamlit app:
-streamlit run app.py
+## usage
+1. Run the streamlit app:
+   streamlit run app.py
 
-Then access the app at http://localhost:8501
+   Then access the app at http://localhost:8501
 
-Project Structure 📂
+## Project Structure 📂
 
-Diabetes_predictor_AI/
-├── app.py                 # Streamlit application
-├── diabetes_model.joblib  # Trained ML model
-├── requirements.txt       # Dependencies
-└── README.md              # This file
+   Diabetes_predictor_AI/
+   ├── app.py                 # Streamlit application
+   ├── diabetes_model.joblib  # Trained ML model
+   ├── requirements.txt       # Dependencies
+   └── README.md              # This file
 
 
-Dataset ℹ️
+## Dataset ℹ️
 
-Model trained on the Pima Indians Diabetes Dataset with:
+   Model trained on the Pima Indians Diabetes Dataset with:
 
-8 clinical features
+      8 clinical features
 
-768 patient records
+      768 patient records
 
-Contributing 🤝
-Pull requests welcome! For major changes, please open an issue first.
+   Contributing 🤝
+      Pull requests welcome! For major changes, please open an issue first.
 
-License 📜
-MIT
-Note: This app is for educational purposes only. Consult a healthcare professional for medical advice.
+## License 📜
+   MIT
+   Note: This app is for educational purposes only. Consult a healthcare professional for medical advice.
 
 ### Key Customization Points:
-1. Replace the demo image badge with an actual screenshot (upload to `/images/` folder)
-2. Update the Python/scikit-learn versions if different
-3. Add your own features under "Features"
-4. Include deployment instructions if hosted online
+   1. Replace the demo image badge with an actual screenshot (upload to `/images/` folder)
+   2. Update the Python/scikit-learn versions if different
+   3. Add your own features under "Features"
+   4. Include deployment instructions if hosted online
 
 ### How to Add to Your Project:
-1. Create new file `README.md` in your project root
-2. Paste this content
-3. Commit and push:
-   ```bash
-   git add README.md
-   git commit -m "Added professional README"
-   git push
+   1. Create new file `README.md` in your project root
+   2. Paste this content
+   3. Commit and push:
+      ```bash
+      git add README.md
+      git commit -m "Added professional README"
+      git push

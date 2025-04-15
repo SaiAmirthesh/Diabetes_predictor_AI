@@ -19,12 +19,12 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
 2.install dependencies:
    ```bash
    pip install -r requirements.txt
-   ```
+
 ## usage
 1. Run the streamlit app:
    ```bash
    streamlit run app.py
-   ```
+
    Then access the app at http://localhost:8501
 
 ## Project Structure 📂
@@ -58,17 +58,4 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
    MIT
    Note: This app is for educational purposes only. Consult a healthcare professional for medical advice.
 
-### Key Customization Points:
-   1. Replace the demo image badge with an actual screenshot (upload to `/images/` folder)
-   2. Update the Python/scikit-learn versions if different
-   3. Add your own features under "Features"
-   4. Include deployment instructions if hosted online
 
-### How to Add to Your Project:
-   1. Create new file `README.md` in your project root
-   2. Paste this content
-   3. Commit and push:
-      ```bash
-      git add README.md
-      git commit -m "Added professional README"
-      git push

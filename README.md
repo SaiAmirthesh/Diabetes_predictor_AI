@@ -48,13 +48,10 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
 
 ## Technical Stack🛠️
    
-   Frontend: Streamlit
-   
-   Backend: Python
-   
-   ML Framework: scikit-learn
-   
-   Data Processing: pandas, NumPy      
+      Frontend: Streamlit
+      Backend: Python
+      ML Framework: scikit-learn
+      Data Processing: pandas, NumPy      
 
 ## Contributing 🤝
       Pull requests welcome! For major changes, please open an issue first.

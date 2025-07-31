@@ -12,6 +12,10 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
 - Probability score with interpretation
 - Mobile-responsive design
 
+## Live Demo
+
+[Live Demo](https://saiamirthesh-diabetes-predictor-ai-app-t1aovp.streamlit.app)
+
 ## Installation 🛠️
    1. Clone the repository:
    ```bash

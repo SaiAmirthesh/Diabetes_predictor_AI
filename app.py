@@ -2,14 +2,11 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load the trained model
-model = joblib.load('diabetes_model.joblib')  # Make sure this file exists
+model = joblib.load('diabetes_model.joblib') 
 
-# App title
 st.title("Diabetes Prediction App 🩺")
 st.markdown("Enter patient details to predict diabetes risk:")
 
-# Input form
 with st.form("patient_details"):
     col1, col2 = st.columns(2)
     
@@ -27,9 +24,7 @@ with st.form("patient_details"):
     
     submit_button = st.form_submit_button("Predict Diabetes")
 
-# Prediction logic
 if submit_button:
-    # Create input DataFrame (must match training data features EXACTLY)
     input_data = pd.DataFrame({
         'Pregnancies': [pregnancies],
         'Glucose': [glucose],
@@ -41,12 +36,10 @@ if submit_button:
         'Age': [age]
     })
     
-    # Predict
     try:
         prediction = model.predict(input_data)[0]
-        proba = model.predict_proba(input_data)[0][1] * 100  # Probability of diabetes
+        proba = model.predict_proba(input_data)[0][1] * 100  
         
-        # Display results
         st.subheader("Prediction Result")
         if prediction == 1:
             st.error(f"⚠️ High Risk of Diabetes ({proba:.1f}% probability)")
@@ -55,7 +48,6 @@ if submit_button:
             st.success(f"✅ Low Risk of Diabetes ({proba:.1f}% probability)")
             st.balloons()
             
-        # Show interpretation
         st.markdown("**Interpretation:**")
         if proba < 30:
             st.info("Healthy range - maintain current lifestyle")
@@ -67,7 +59,6 @@ if submit_button:
     except Exception as e:
         st.error(f"Prediction failed: {str(e)}")
 
-# Add some info
 st.sidebar.markdown("""
 **About this app:**
 - Predicts diabetes risk using logistic regression

@@ -12,6 +12,10 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
 - Probability score with interpretation
 - Mobile-responsive design
 
+## Live Demo
+
+[Live Demo](https://saiamirthesh-diabetes-predictor-ai-app-t1aovp.streamlit.app)
+
 ## Installation 🛠️
    1. Clone the repository:
    ```bash
@@ -48,13 +52,10 @@ A machine learning-powered web app that predicts diabetes risk based on patient 
 
 ## Technical Stack🛠️
    
-   Frontend: Streamlit
-   
-   Backend: Python
-   
-   ML Framework: scikit-learn
-   
-   Data Processing: pandas, NumPy      
+      Frontend: Streamlit
+      Backend: Python
+      ML Framework: scikit-learn
+      Data Processing: pandas, NumPy      
 
 ## Contributing 🤝
       Pull requests welcome! For major changes, please open an issue first.
